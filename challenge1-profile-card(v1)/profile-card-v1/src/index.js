@@ -8,6 +8,7 @@ function App() {
       <Avatar />
       <div className="data">
         <Intro />
+
         <SkillList />
       </div>
     </div>
@@ -30,7 +31,7 @@ function Intro() {
     </div>
   );
 }
-
+//Child Component
 function SkillList() {
   return (
     <div className="skill-list">
@@ -41,7 +42,7 @@ function SkillList() {
     </div>
   );
 }
-
+// Parent Compoent
 function Skill(props) {
   return (
     <div className="skill" style={{ backgroundColor: props.color }}>
